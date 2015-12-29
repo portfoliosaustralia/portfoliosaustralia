@@ -7,17 +7,17 @@ permalink: /:title/
 relative_permalinks: true
 
 # Setup
-title:               Gerald
-tagline:             'counselling and elearning resources online wellington'
-description:         'Master of Counselling'
-url:                 http://gerald.nz
+title:               Nocturnal Works
+tagline:             'marriage counselling and resources wellington and online'
+description:         'Gerald, MBA, MEd, MCouns'
+url:                 http://nocturnalworks.com
 baseurl:             /
 paginate:            5
 
 # About/contact
 author:
-  name:              Gerald Lee Jordan
-  url:               https://twitter.com/geraldleejordan
+  name:              Nocturnal Works
+  url:               https://twitter.com/nocturnalworks
   email:             jerryleejordan@gmail.com
 
 # Custom vars
