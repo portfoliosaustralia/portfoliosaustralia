@@ -16,3 +16,14 @@ The pages related to site categories are linked, below.
     </ul>
   </li>
 {% endfor %}
+
+
+
+ <ul>
+ {% assign sorted_posts = (site.categories.['terminology'] | sort: 'title') %}
+{% for post in sorted_posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
