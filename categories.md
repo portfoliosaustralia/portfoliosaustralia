@@ -5,20 +5,7 @@ title: categories
 
 The pages related to site categories are linked, below.
 
-{% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
-    <ul>
-    {% for posts in category %}
-      {% for post in posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    {% endfor %}
-    </ul>
-  </li>
-{% endfor %}
-
-
-
+<h3>Terminology</h3>
  <ul>
  {% assign sorted_posts = (site.categories.['terminology'] | sort: 'title') %}
 {% for post in sorted_posts %}
