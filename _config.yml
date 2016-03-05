@@ -7,17 +7,17 @@ permalink: /:title/
 relative_permalinks: true
 
 # Setup
-title:               Nocturnal Works
-tagline:             'therapy and counseling online for relatioships, depression, anxiety and other issues'
-description:         'online therapy'
-url:                 http://nocturnalworks.com
+title:               Portfolios Australia
+tagline:             'Portfolio and Project Management Australia'
+description:         'portfolio and project management'
+url:                 http://portfoliosaustralia.com
 baseurl:             /
 paginate:            5
 
 # About/contact
 author:
-  name:              Nocturnal Works
-  url:               https://twitter.com/nocturnalworks
+  name:              Gerald Lee Jordan
+  url:               https://twitter.com/geraldleejordan
   email:             jerryleejordan@gmail.com
 
 # Custom vars
